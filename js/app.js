@@ -10,8 +10,6 @@ document.addEventListener('DOMContentLoaded',function() {
 		paras[parseInt(k)].style.display = 'block';
 	};
 
-	displaySelectedPara(currentPage);
-
 	document.getElementById('prev').addEventListener('click',() => {
 		currentPage = (currentPage - 1 + MAX_PAGES) % MAX_PAGES;
 		displaySelectedPara(currentPage);
