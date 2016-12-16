@@ -1,6 +1,10 @@
 # paginate-yo
 
+> Pure JS implementation of Pagination :ghost:
 
+# Screenshot
+
+![Pagination](http://imgur.com/vIICP4p.png)
 
 ## License
 
